@@ -1,0 +1,103 @@
+24/01/08 13:46:30: Connection au serveur localhost ( chartercar )
+24/01/08 13:46:30: Requete réussie:
+ - SELECT MIN(kilometragealler) FROM demandetr
+24/01/08 13:46:30: Requete réussie:
+ - SELECT MAX(kilometragealler) FROM demandetr
+24/01/08 13:46:30: Requete réussie:
+ - SELECT MIN(capacitenecessaire) FROM demandetr
+24/01/08 13:46:30: Requete réussie:
+ - SELECT MAX(capacitenecessaire) FROM demandetr
+24/01/08 13:46:30: Requete réussie:
+ - SELECT MIN(tarifadopte) FROM demandetr
+24/01/08 13:46:30: Requete réussie:
+ - SELECT MAX(tarifadopte) FROM demandetr
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande' GROUP BY iddemandetr ORDER BY iddemandetr DESC
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande' GROUP BY iddemandetr ORDER BY iddemandetr DESC LIMIT 5
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND kilometragealler BETWEEN 0 AND 401 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND kilometragealler BETWEEN 401 AND 802 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND kilometragealler BETWEEN 802 AND 1203 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND kilometragealler BETWEEN 1203 AND 1604 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND capacitenecessaire BETWEEN 0 AND 80 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND capacitenecessaire BETWEEN 80 AND 160 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND capacitenecessaire BETWEEN 160 AND 240 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND capacitenecessaire BETWEEN 240 AND 320 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND tarifadopte BETWEEN 0 AND 1208 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND tarifadopte BETWEEN 1208 AND 2416 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND tarifadopte BETWEEN 2416 AND 3624 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT *
+                     FROM demandetr
+                     NATURAL JOIN contact
+                     WHERE contact.idutilisateur = 2 AND dtag = 'newdemande'  AND tarifadopte BETWEEN 3624 AND 4832 GROUP BY iddemandetr ORDER BY iddemandetr DESC 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT * FROM etape WHERE iddemandetr = '40' ORDER BY idetape 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT * FROM etape WHERE iddemandetr = '40' ORDER BY idetape 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT * FROM etape WHERE iddemandetr = '39' ORDER BY idetape 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT * FROM etape WHERE iddemandetr = '39' ORDER BY idetape 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT * FROM etape WHERE iddemandetr = '38' ORDER BY idetape 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT * FROM etape WHERE iddemandetr = '38' ORDER BY idetape 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT * FROM etape WHERE iddemandetr = '37' ORDER BY idetape 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT * FROM etape WHERE iddemandetr = '37' ORDER BY idetape 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT * FROM etape WHERE iddemandetr = '27' ORDER BY idetape 
+24/01/08 13:46:30: Requete réussie:
+ - SELECT * FROM etape WHERE iddemandetr = '27' ORDER BY idetape 

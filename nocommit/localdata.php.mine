@@ -1,0 +1,8 @@
+<?php
+
+function getGoogleMapApiKey(){
+	$key = 'ABQIAAAACtOquB4xmJR77a3DzZblQxQKczeK2htn-th-DzVHVAjbS9TXhRSe7JfU4Cx1yvdSRk8joAWTX22O_w';
+	
+	return $key;
+}
+?>

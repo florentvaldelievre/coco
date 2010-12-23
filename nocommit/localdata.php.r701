@@ -1,0 +1,14 @@
+<?php
+
+function getGoogleMapApiKey(){
+	$key = 'ABQIAAAACtOquB4xmJR77a3DzZblQxQ52UG_kdAf6zTKMyJwha5F-4U3PBQQhyyxIXzls0fROgYLbIfpwqAZJA';
+	
+	return $key;
+}
+
+function getIndexPath(){
+	$path = '/home/benj/eclipseprojects/workspace/chartercar'; //path index.php
+	
+	return $path;
+}
+?>

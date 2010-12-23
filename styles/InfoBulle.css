@@ -1,0 +1,15 @@
+.InfoBulle{position: absolute;
+			display: none;
+			}
+
+.titreInfoBulle{background-color: #0F04D0;
+				color: white;
+				font-weight: bold;
+				text-align: center;
+				}
+
+.zoneInfoBullee{
+				background-color: #A5DFF5;
+				width: 70%;
+				margin: auto;
+				}
